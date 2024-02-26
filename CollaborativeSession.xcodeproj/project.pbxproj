@@ -16,7 +16,15 @@
 		0C968A53230DD14F00B415B3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C968A52230DD14F00B415B3 /* Utilities.swift */; };
 		0CCDFA76230F13570095AFDB /* MessageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCDFA75230F13570095AFDB /* MessageLabel.swift */; };
 		0CCDFA78230F1BF70095AFDB /* ViewController+CoachingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCDFA77230F1BF70095AFDB /* ViewController+CoachingOverlay.swift */; };
-		718D2AFC233153EF0075B672 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 718D2AFB233153EF0075B672 /* README.md */; };
+		4C08F2AB2B16A0BA00213FA4 /* C Major.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4C08F2A72B16A0BA00213FA4 /* C Major.usdz */; };
+		4C08F2AC2B16A0BA00213FA4 /* G Major.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4C08F2A82B16A0BA00213FA4 /* G Major.usdz */; };
+		4C08F2AD2B16A0BA00213FA4 /* F Major.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4C08F2A92B16A0BA00213FA4 /* F Major.usdz */; };
+		4C08F2AE2B16A0BA00213FA4 /* A Minor.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4C08F2AA2B16A0BA00213FA4 /* A Minor.usdz */; };
+		4C721BE52B1442BA00EF8CAC /* Models + Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C721BE42B1442BA00EF8CAC /* Models + Utils.swift */; };
+		4C721BE92B15508700EF8CAC /* C Major.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C721BE82B15508700EF8CAC /* C Major.wav */; };
+		4C721BEE2B15509500EF8CAC /* F Major.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C721BEA2B15509500EF8CAC /* F Major.wav */; };
+		4C721BEF2B15509500EF8CAC /* G Major.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C721BEB2B15509500EF8CAC /* G Major.wav */; };
+		4C721BF02B15509500EF8CAC /* A Minor.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C721BEC2B15509500EF8CAC /* A Minor.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +39,16 @@
 		0C968A52230DD14F00B415B3 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		0CCDFA75230F13570095AFDB /* MessageLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageLabel.swift; sourceTree = "<group>"; };
 		0CCDFA77230F1BF70095AFDB /* ViewController+CoachingOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+CoachingOverlay.swift"; sourceTree = "<group>"; };
-		718D2AFB233153EF0075B672 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		79A3D4B5FDAD8799EE5A506F /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
-		B40803DB8FC0BFFCE474F17F /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		4C08F2A72B16A0BA00213FA4 /* C Major.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "C Major.usdz"; sourceTree = "<group>"; };
+		4C08F2A82B16A0BA00213FA4 /* G Major.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "G Major.usdz"; sourceTree = "<group>"; };
+		4C08F2A92B16A0BA00213FA4 /* F Major.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "F Major.usdz"; sourceTree = "<group>"; };
+		4C08F2AA2B16A0BA00213FA4 /* A Minor.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "A Minor.usdz"; sourceTree = "<group>"; };
+		4C721BE42B1442BA00EF8CAC /* Models + Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models + Utils.swift"; sourceTree = "<group>"; };
+		4C721BE82B15508700EF8CAC /* C Major.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "C Major.wav"; sourceTree = "<group>"; };
+		4C721BEA2B15509500EF8CAC /* F Major.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "F Major.wav"; sourceTree = "<group>"; };
+		4C721BEB2B15509500EF8CAC /* G Major.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "G Major.wav"; sourceTree = "<group>"; };
+		4C721BEC2B15509500EF8CAC /* A Minor.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "A Minor.wav"; sourceTree = "<group>"; };
+		B40803DB8FC0BFFCE474F17F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,11 +65,9 @@
 		0C34B3C023077FC2005DB76E = {
 			isa = PBXGroup;
 			children = (
-				718D2AFB233153EF0075B672 /* README.md */,
 				0C34B3CB23077FC2005DB76E /* CollaborativeSession */,
 				0C34B3CA23077FC2005DB76E /* Products */,
 				9001E0AD7B796A7D87EDE241 /* Configuration */,
-				C619E6528F7FDC8003B71BE2 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,11 +82,20 @@
 		0C34B3CB23077FC2005DB76E /* CollaborativeSession */ = {
 			isa = PBXGroup;
 			children = (
+				4C721BE82B15508700EF8CAC /* C Major.wav */,
+				4C721BEC2B15509500EF8CAC /* A Minor.wav */,
+				4C721BEA2B15509500EF8CAC /* F Major.wav */,
+				4C721BEB2B15509500EF8CAC /* G Major.wav */,
+				4C08F2AA2B16A0BA00213FA4 /* A Minor.usdz */,
+				4C08F2A72B16A0BA00213FA4 /* C Major.usdz */,
+				4C08F2A92B16A0BA00213FA4 /* F Major.usdz */,
+				4C08F2A82B16A0BA00213FA4 /* G Major.usdz */,
 				0C34B3CC23077FC2005DB76E /* AppDelegate.swift */,
 				0C34B3CE23077FC2005DB76E /* ViewController.swift */,
 				0CCDFA77230F1BF70095AFDB /* ViewController+CoachingOverlay.swift */,
 				0C968A50230CB2EA00B415B3 /* MultipeerSession.swift */,
 				0CCDFA75230F13570095AFDB /* MessageLabel.swift */,
+				4C721BE42B1442BA00EF8CAC /* Models + Utils.swift */,
 				0C968A52230DD14F00B415B3 /* Utilities.swift */,
 				0C34B3D223077FC2005DB76E /* Main.storyboard */,
 				0C34B3D523077FC5005DB76E /* Assets.xcassets */,
@@ -89,15 +111,6 @@
 				B40803DB8FC0BFFCE474F17F /* SampleCode.xcconfig */,
 			);
 			name = Configuration;
-			sourceTree = "<group>";
-		};
-		C619E6528F7FDC8003B71BE2 /* LICENSE */ = {
-			isa = PBXGroup;
-			children = (
-				79A3D4B5FDAD8799EE5A506F /* LICENSE.txt */,
-			);
-			name = LICENSE;
-			path = LICENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,10 +171,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C08F2AC2B16A0BA00213FA4 /* G Major.usdz in Resources */,
 				0C34B3D923077FC5005DB76E /* LaunchScreen.storyboard in Resources */,
+				4C08F2AB2B16A0BA00213FA4 /* C Major.usdz in Resources */,
+				4C08F2AE2B16A0BA00213FA4 /* A Minor.usdz in Resources */,
+				4C721BEE2B15509500EF8CAC /* F Major.wav in Resources */,
 				0C34B3D623077FC5005DB76E /* Assets.xcassets in Resources */,
-				718D2AFC233153EF0075B672 /* README.md in Resources */,
 				0C34B3D423077FC2005DB76E /* Main.storyboard in Resources */,
+				4C721BF02B15509500EF8CAC /* A Minor.wav in Resources */,
+				4C721BE92B15508700EF8CAC /* C Major.wav in Resources */,
+				4C721BEF2B15509500EF8CAC /* G Major.wav in Resources */,
+				4C08F2AD2B16A0BA00213FA4 /* F Major.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +196,7 @@
 				0C34B3CF23077FC2005DB76E /* ViewController.swift in Sources */,
 				0CCDFA76230F13570095AFDB /* MessageLabel.swift in Sources */,
 				0CCDFA78230F1BF70095AFDB /* ViewController+CoachingOverlay.swift in Sources */,
+				4C721BE52B1442BA00EF8CAC /* Models + Utils.swift in Sources */,
 				0C968A53230DD14F00B415B3 /* Utilities.swift in Sources */,
 				0C34B3CD23077FC2005DB76E /* AppDelegate.swift in Sources */,
 			);
@@ -325,7 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UM3WGRZ937;
 				INFOPLIST_FILE = CollaborativeSession/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -346,7 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UM3WGRZ937;
 				INFOPLIST_FILE = CollaborativeSession/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

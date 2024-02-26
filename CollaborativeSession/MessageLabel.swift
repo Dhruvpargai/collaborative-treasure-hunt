@@ -1,10 +1,3 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-A label to present the user with feedback.
-*/
-
 import UIKit
 
 @IBDesignable

@@ -1,10 +1,3 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-A simple abstraction of the MultipeerConnectivity API as used in this app.
-*/
-
 import MultipeerConnectivity
 
 /// - Tag: MultipeerSession
@@ -20,16 +13,19 @@ class MultipeerSession: NSObject {
     private let peerJoinedHandler: (MCPeerID) -> Void
     private let peerLeftHandler: (MCPeerID) -> Void
     private let peerDiscoveredHandler: (MCPeerID) -> Bool
+    private let joinedSessionHandler: () -> Void
 
     /// - Tag: MultipeerSetup
     init(receivedDataHandler: @escaping (Data, MCPeerID) -> Void,
          peerJoinedHandler: @escaping (MCPeerID) -> Void,
          peerLeftHandler: @escaping (MCPeerID) -> Void,
-         peerDiscoveredHandler: @escaping (MCPeerID) -> Bool) {
+         peerDiscoveredHandler: @escaping (MCPeerID) -> Bool,
+         joinedSessionHandler: @escaping () -> Void) {
         self.receivedDataHandler = receivedDataHandler
         self.peerJoinedHandler = peerJoinedHandler
         self.peerLeftHandler = peerLeftHandler
         self.peerDiscoveredHandler = peerDiscoveredHandler
+        self.joinedSessionHandler = joinedSessionHandler
         
         super.init()
         
@@ -118,6 +114,7 @@ extension MultipeerSession: MCNearbyServiceAdvertiserDelegate {
     func advertiser(_ advertiser: MCNearbyServiceAdvertiser, didReceiveInvitationFromPeer peerID: MCPeerID,
                     withContext context: Data?, invitationHandler: @escaping (Bool, MCSession?) -> Void) {
         // Call the handler to accept the peer's invitation to join.
+        joinedSessionHandler()
         invitationHandler(true, self.session)
     }
 }

@@ -1,10 +1,3 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Methods on the main view controller for conforming to the ARCoachingOverlayViewDelegate protocol.
-*/
-
 import UIKit
 import ARKit
 
